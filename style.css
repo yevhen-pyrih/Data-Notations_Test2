@@ -18,6 +18,11 @@ body {
     background-color: black;
     color: white;
 
+}
+
+body {
+    overflow-x: hidden;
+}
 /* TASK4 */
 
 .forms {
@@ -49,6 +54,35 @@ button {
     display: flex;
     gap: 1cm;
 }
+input::selection, textarea::selection {
+    background-color: orange;
+    color: white;
+}
+/*TASK3*/
+body {
+    overflow-x: hidden;
+}
+
+.images {
+    text-align: center;
+}
+
+.images-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1cm;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border: 5px dashed aquamarine;
+    border-radius: 8px;
+}
+/*TASK3*/
 
 /* TASK 1 */
 .container {
