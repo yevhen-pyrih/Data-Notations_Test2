@@ -46,7 +46,31 @@ button {
     display: flex;
     gap: 1cm;
 }
-input::selection, textarea::selection {
-    background-color: orange;
-    color: white;
+
+.text-source:hover {
+    color: blue;
+}
+
+/* TASK5 */
+
+body {
+    overflow-x: hidden;
+}
+
+.author {
+    text-align: center;
+    margin-bottom: 1cm;
+}
+
+.author-list {
+    display: flex;
+    justify-content: center;
+    border: 3px solid pink;
+    max-width: fit-content;
+    align-self: center;
+
+}
+
+.author-list ol li {
+    font-weight: bold;
 }
