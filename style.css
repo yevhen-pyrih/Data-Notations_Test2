@@ -13,4 +13,40 @@
     color: white;
 
 
+body {
+    overflow-x: hidden;
+}
+
+.forms {
+    text-align: center;
+    margin-bottom: 1cm;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 33%;
+    gap: 10px;
+}
+
+input {
+    background-color: blue;
+    color: aliceblue;
+}
+
+button {
+    background-color: orange;
+    color: aliceblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    /* margin-inline-end: 1cm; */
+}
+
+.buttons{
+    display: flex;
+    gap: 1cm;
+}
+input::selection, textarea::selection {
+    background-color: orange;
+    color: white;
 }
