@@ -1,5 +1,5 @@
 # Our team
 
-* Yevhen Pyrih 1
+* Yevhen Pyrih 1, 5
 * Oleksandr Vasyliev 2, 3
-* Maksym Prylukin 4, 5
+* Maksym Prylukin 4

@@ -1,3 +1,9 @@
+body {
+    overflow-x: hidden;
+}
+
+/* TASK2 */
+
 .data-table
 {
     border-collapse: collapse;
@@ -17,6 +23,7 @@
 body {
     overflow-x: hidden;
 }
+/* TASK4 */
 
 .forms {
     text-align: center;
@@ -76,3 +83,85 @@ img {
     border-radius: 8px;
 }
 /*TASK3*/
+
+/* TASK 1 */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+
+}
+
+.home {
+    text-align: center;
+    color: green;
+}
+
+.maintext {
+    width: 100%;
+    text-align: justify;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    font-style: italic;
+}
+
+.columns {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.column {
+    margin: 20px;
+    flex: 1 1 300px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.sources {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.text-sources {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.text-source:hover {
+    color: blue;
+}
+
+/* TASK5 */
+    
+.author {
+    text-align: center;
+    margin-bottom: 1cm;
+}
+
+.author-list {
+    display: flex;
+    justify-content: center;
+    border: 3px solid pink;
+    max-width: fit-content;
+    align-self: center;
+
+}
+
+.author-list ol li {
+    font-weight: bold;
+}
