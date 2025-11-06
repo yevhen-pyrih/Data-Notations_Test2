@@ -1,0 +1,22 @@
+{
+    "GPU": {
+      "NVIDEA": "GeForce RTX 5060",
+      "AMD": "Radeon RX 7600",
+      "INTEL": "Radeon RX 7600"
+    },
+    "CPU": {
+      "AMD": "RYZEN 9 9950X3D",
+      "INTEL": "Intel CPU/Core Ultra 5",
+      "Qualcomm": "ARM926EJ-S "
+    },
+    "MOTHERBOARD": {
+      "GIGABYTE": "B650 Eagle AX",
+      "ASUS": "ROG STRIX B550-F ",
+      "MSI": "MPG B550"
+    },
+    "RAM": {
+      "FURY": "DDR4 32GB",
+      "Corsair": "DDR5 Vengeance RGB 32GB",
+      "Goodram": "DDR3 Irdm 2X8Gb"
+    }
+  }

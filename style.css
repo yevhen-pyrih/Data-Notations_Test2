@@ -1,3 +1,18 @@
+.data-table
+{
+    border-collapse: collapse;
+}
+.data
+{
+    text-align: center  ;
+    margin-bottom: 1cm;
+}
+.header-class
+{
+    background-color: black;
+    color: white;
+
+
 body {
     overflow-x: hidden;
 }
