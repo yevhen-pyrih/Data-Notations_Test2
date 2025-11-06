@@ -17,12 +17,8 @@ body {
 {
     background-color: black;
     color: white;
-
 }
 
-body {
-    overflow-x: hidden;
-}
 /* TASK4 */
 
 .forms {
@@ -58,11 +54,7 @@ input::selection, textarea::selection {
     background-color: orange;
     color: white;
 }
-/*TASK3*/
-body {
-    overflow-x: hidden;
-}
-
+/* TASK3 */
 .images {
     text-align: center;
 }
@@ -82,7 +74,6 @@ img {
     border: 5px dashed aquamarine;
     border-radius: 8px;
 }
-/*TASK3*/
 
 /* TASK 1 */
 .container {
