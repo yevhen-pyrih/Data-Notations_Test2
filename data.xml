@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <element id="NVIDEA">
+        <name>GeForce RTX 5070 ti</name>
+        <type>GPU</type>
+        <description>High-end GPU for gaming</description>
+        <use>Used to build gaming PC or traing LLM</use>
+
+    </element>
+    <element id="AMD">
+        <name>AMD RYZEN 9 9950X3D</name>
+        <type>CPU</type>
+        <description>High-end CPU for heavy tasks</description>
+        <use>Used to build desktop PC</use>
+
+    </element>
+    <element id="MSI">
+        <name>MSI B760 GAMING PLUS WIFI</name>
+        <type>Motherboard</type>
+        <description>Motherboard with Socket 1700 and DDR5 Ram slot</description>
+        <use>Neccecery part to connect all PC components</use>
+    </element>
+
+</root>

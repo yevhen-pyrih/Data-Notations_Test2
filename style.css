@@ -1,62 +1,50 @@
-/* TASK 1 */
+.data-table
+{
+    border-collapse: collapse;
+}
+.data
+{
+    text-align: center  ;
+    margin-bottom: 1cm;
+}
+.header-class
+{
+    background-color: black;
+    color: white;
+
+
 body {
     overflow-x: hidden;
 }
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
 
-.navigation {
-    display: flex;
-    justify-content: flex-end;
-    padding: 20px;
-
-}
-
-.home {
+.forms {
     text-align: center;
-    color: green;
-}
-
-.maintext {
-    width: 100%;
-    text-align: justify;
-    margin-top: 1cm;
     margin-bottom: 1cm;
-    font-style: italic;
 }
 
-.columns {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 20px;
-}
-
-.column {
-    margin: 20px;
-    flex: 1 1 300px;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-.sources {
+.form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    max-width: 33%;
+    gap: 10px;
 }
 
-.text-sources {
-    width: 100%;
+input {
+    background-color: blue;
+    color: aliceblue;
+}
+
+button {
+    background-color: orange;
+    color: aliceblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    /* margin-inline-end: 1cm; */
+}
+
+.buttons{
     display: flex;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-    gap: 20px;
+    gap: 1cm;
 }
 
 .text-source:hover {
